@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Medical Cross Icon</title>
+  <rect width="64" height="64" rx="12" fill="#0f172a"/>
+  <path d="M28 14h8c1.1 0 2 .9 2 2v10h10c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H38v10c0 1.1-.9 2-2 2h-8c-1.1 0-2-.9-2-2V38H16c-1.1 0-2-.9-2-2v-8c0-1.1.9-2 2-2h10V16c0-1.1.9-2 2-2z" fill="#38bdf8"/>
+</svg>

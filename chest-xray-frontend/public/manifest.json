@@ -1,0 +1,16 @@
+{
+  "name": "Chest X-Ray AI Analysis System",
+  "short_name": "Chest X-Ray AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Diagnostic assistance platform with streaming AI predictions, Grad-CAM visualizations, and clinical reporting.",
+  "icons": [
+    {
+      "src": "/medical-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

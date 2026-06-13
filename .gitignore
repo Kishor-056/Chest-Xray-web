@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# Android
+.gradle/
+build/
+local.properties
+*.apk
+*.aar
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+*.log
+Test_Report.xlsx
+Test_Report_Passed.xlsx
+Backend_Test_Report.xlsx

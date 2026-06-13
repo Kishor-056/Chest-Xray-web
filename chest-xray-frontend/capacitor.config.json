@@ -1,0 +1,5 @@
+{
+  "appId": "com.chestxray.app",
+  "appName": "Chest X-Ray",
+  "webDir": "dist"
+}

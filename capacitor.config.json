@@ -1,0 +1,5 @@
+{
+  "appId": "com.kishore.chestxray",
+  "appName": "Chest Xray",
+  "webDir": "chest-xray-frontend/dist"
+}

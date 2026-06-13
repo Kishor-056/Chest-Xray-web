@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chest X-Ray</string>
+    <string name="title_activity_main">Chest X-Ray</string>
+    <string name="package_name">com.chestxray.app</string>
+    <string name="custom_url_scheme">com.chestxray.app</string>
+</resources>
