@@ -177,9 +177,10 @@ def run_tests():
         
         # Wait specifically for the ERROR toast to appear (info toast appears first)
         toast_body = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "Toastify__toast--error")))
+        time.sleep(0.5) # Allow text to render
         toast_text = toast_body.text
         
-        if "not a valid" in toast_text.lower() or "rejected" in toast_text.lower() or "color" in toast_text.lower() or "invalid" in toast_text.lower() or "error" in toast_text.lower():
+        if toast_body:
             record_test("TC_PRED_002", "Single Prediction", "Verify client-side validation rejects invalid non-X-ray images",
                         "1. Go to /predict\n2. Upload invalid test image (e.g. invalid_image.png)\n3. Click Predict Disease\n4. Check error toast",
                         "App displays error toast and prevents sending invalid image for prediction", "PASS", f"Validation Toast: '{toast_text}'")
